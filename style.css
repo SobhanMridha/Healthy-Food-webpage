@@ -43,6 +43,16 @@ body {
   margin-bottom: 3.5em;
 }
 
+.banner-container > img {
+  width: 750px ;
+  height: 750px;
+  position: absolute;
+  z-index: -1;
+  bottom: 7.55em;
+  right: 10em;
+  rotate: 15deg;
+}
+
 .banner-content h3 {
   color: #575757;
   font-size: 3.7em;
@@ -91,8 +101,8 @@ body {
 }
 
 .about-me-img {
- position: relative;
- bottom: -4px;
+  position: relative;
+  bottom: -4px;
 }
 
 .about-me-img img {
@@ -132,6 +142,18 @@ body {
     font-size: 1.2em;
   }
 
+  .banner-container > img {
+    width: 350px ;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+    bottom: 24.8em;
+    right: 0.1em;
+    rotate: 0deg;
+  }
+
+
+
   /* about me section  */
 
   .about-me-container {
@@ -148,5 +170,4 @@ body {
     position: relative;
     bottom: 2em;
   }
-
 }
