@@ -195,6 +195,31 @@ body {
   font-weight: 400;
 }
 
+/* footer section */
+
+.footer-container {
+  background-color: #0B0D17;
+  padding: 3em;
+  text-align: center;
+}
+
+.footer-content h3 {
+  color: #5b5b5b;
+  font-size: 1.9em;
+  font-weight: 800;
+  padding-bottom: 1em;
+}
+
+.footer-content span {
+  color: #fba24f;
+}
+
+.footer-content p {
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 400;
+}
+
 /* Responsive section  */
 
 @media screen and (max-width: 576px) {
@@ -260,7 +285,7 @@ body {
   .recipies-container {
     margin-bottom: 2em;
   }
-   
+
   .recipies-header p {
     width: 100%;
     padding: 1.5em 1em;
@@ -283,8 +308,12 @@ body {
   .recipes-card p {
     width: 100%;
   }
-   
+
   /* social section  */
+
+  .social-container {
+    margin-bottom: 2em;
+  }
 
   .social-content {
     width: 90%;
@@ -300,6 +329,19 @@ body {
     font-size: 0.5em;
   }
 
+  /* footer section */
+
+  .footer-container {
+    padding: 1.5em;
+  }
+
+  .footer-content h3 {
+    font-size: 1.5em;
+  }
+
+  .footer-content p {
+    font-size: 0.7em;
+  }
 
 
 }
