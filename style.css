@@ -166,6 +166,35 @@ body {
   border-radius: 16px;
 }
 
+/* social section  */
+
+.social-container {
+  margin-bottom: 5em;
+}
+
+.social-content {
+  width: 1150px;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 100px;
+  border-radius: 20px;
+  background-color: var(--Default-White, #fff);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.social-content h3 {
+  color: #18191f;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.social-content p {
+  color: #18191f;
+  font-size: 1em;
+  font-weight: 400;
+}
+
 /* Responsive section  */
 
 @media screen and (max-width: 576px) {
@@ -228,6 +257,10 @@ body {
 
   /* recipies section  */
 
+  .recipies-container {
+    margin-bottom: 2em;
+  }
+   
   .recipies-header p {
     width: 100%;
     padding: 1.5em 1em;
@@ -250,4 +283,23 @@ body {
   .recipes-card p {
     width: 100%;
   }
+   
+  /* social section  */
+
+  .social-content {
+    width: 90%;
+    gap: 1em;
+    padding: 2em 2em;
+  }
+
+  .social-content h3 {
+    font-size: 1.5em;
+  }
+
+  .social-content p {
+    font-size: 0.5em;
+  }
+
+
+
 }
