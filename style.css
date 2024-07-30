@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* common part  */
+
+.text {
+  color: #18191f;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 24px 32px;
+  border: none;
+  border-radius: 100px;
+  background-image: linear-gradient(88deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
+}
+
+.btn:hover {
+  color: #18191f;
+  cursor: pointer;
+}
+
+/* banner section  */
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.5em;
+}
+
+.banner-content h3 {
+  color: #575757;
+  font-size: 3.7em;
+  font-weight: 700;
+}
+
+.banner-content span {
+  color: #fba24f;
+}
+
+.banner-content p {
+  color: #828282;
+  font-size: 1.4em;
+  font-weight: 500;
+  padding-top: 2em;
+  padding-bottom: 2.5em;
+}
+
+
+
+
+
+
+/* Responsive section  */
+
+@media screen and (max-width: 576px){
+
+    /* banner section  */
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-content h3 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .banner-content p {
+        padding: 1em;
+        text-align: center;
+    }
+    
+    .banner-img img {
+        width: 100%;
+    }
+    
+    .banner-content button {
+        margin: 0 110px;
+        font-size: 1.2em;
+    }
+}
