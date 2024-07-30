@@ -44,7 +44,7 @@ body {
 }
 
 .banner-container > img {
-  width: 750px ;
+  width: 750px;
   height: 750px;
   position: absolute;
   z-index: -1;
@@ -110,6 +110,62 @@ body {
   height: 536px;
 }
 
+/* my recipies section  */
+
+.recipies-container {
+  margin-bottom: 6em;
+}
+
+.recipies-header {
+  text-align: center;
+}
+
+.recipies-header h3 {
+  color: #676767;
+  font-size: 2.2em;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.recipies-header p {
+  width: 706px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: auto;
+}
+
+.recipes-card-content {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.recipes-card {
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 2em;
+}
+
+.recipes-card h4 {
+  color: #18191f;
+  font-size: 1.9em;
+  font-weight: 800;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  text-decoration: underline;
+}
+
+.recipes-card p {
+  width: 500px;
+}
+
+.recipes-card img {
+  width: 500px;
+  height: 308px;
+  border-radius: 16px;
+}
+
 /* Responsive section  */
 
 @media screen and (max-width: 576px) {
@@ -143,7 +199,7 @@ body {
   }
 
   .banner-container > img {
-    width: 350px ;
+    width: 350px;
     height: 400px;
     position: absolute;
     z-index: -1;
@@ -152,12 +208,11 @@ body {
     rotate: 0deg;
   }
 
-
-
   /* about me section  */
 
   .about-me-container {
     flex-direction: column;
+    margin-bottom: 2em;
   }
 
   .about-me-content {
@@ -169,5 +224,30 @@ body {
   .about-me-content button {
     position: relative;
     bottom: 2em;
+  }
+
+  /* recipies section  */
+
+  .recipies-header p {
+    width: 100%;
+    padding: 1.5em 1em;
+  }
+
+  .recipes-card-content {
+    flex-direction: column;
+  }
+
+  .recipes-card {
+    width: 90%;
+    margin: auto;
+  }
+
+  .recipes-card img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .recipes-card p {
+    width: 100%;
   }
 }
